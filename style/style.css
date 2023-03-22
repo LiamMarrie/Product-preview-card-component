@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     user-select: none;
 }
@@ -45,9 +46,10 @@ main{
 h2{
     margin-top: 5px;
     font-size: 15px;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%); 
     align-self: flex-start;
+    letter-spacing: 5px;
 }
 
 
@@ -59,13 +61,16 @@ h2:hover{
 h1{
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
-    font-weight: 600;
+    font-weight: 700;
+    max-width: 200px;
+    font-size: 30px;
 }
 
 p{
     font-family:'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
     font-size: 15px;
+    max-width: 250px;
 }
 
 .prices{
@@ -97,7 +102,7 @@ p{
 .container button{
     margin-left: 20px;
     padding: 15px;
-    width: 75%;
+    width: 80%;
     border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
     font-family:'Montserrat', sans-serif;
